@@ -13,7 +13,7 @@
 <body>
     
 <header class="header">
-   <div class="container">
+   <div class="header-footer__container">
       <nav class="navigation">
          <a class="logo__header" href="/" aria-label="логотип сайта">
             <span class="logo__web" lang="en">Web</span><span class="logo__studio" lang="en">Studio</span>
@@ -58,7 +58,7 @@
     <!-- ADVANTAGES -->
     <section class="advantages">
          <h2 hidden>Преимущества</h2>
-         <div class="container padding">
+         <div class="container">
          <ul class="advantages__list">
             
                <li class="advantages__item">
@@ -102,28 +102,36 @@
 
     <!-- OUR TEAM -->
     <section class="our__team">
-      <div class="container padding">
+      <div class="container">
          <h2 class="title">Наша команда</h2>
          <ul class="members__list">
             <li class="members__list-item">
                <img src="images/our-team/img.jpg" alt="Игорь Демьяненко - дизайнер продуктов" width="270" height="260">
-               <h3 class="team__member">Игорь Демьяненко</h3>
-               <p class="member__occupation" lang="en">Product Designer</p>
+               <div class="text__container">
+                  <h3 class="team__member">Игорь Демьяненко</h3>
+                  <p class="member__occupation" lang="en">Product Designer</p>
+               </div>
             </li>
             <li class="members__list-item">
                <img src="images/our-team/img-1.jpg" alt="Ольга Репина - фронтенд-разработчики" width="270" height="260">
-               <h3 class="team__member">Ольга Репина</h3>
-               <p class="member__occupation" lang="en">Frontend Developer</p>
+               <div class="text__container">                
+                  <h3 class="team__member">Ольга Репина</h3>
+                  <p class="member__occupation" lang="en">Frontend Developer</p>
+               </div>
             </li>
             <li class="members__list-item">
                <img src="images/our-team/img-2.jpg" alt="Николай Тарасов - отдел маркетинга" width="270" height="260">
-               <h3 class="team__member">Николай Тарасов</h3>
-               <p class="member__occupation" lang="en">Marketing</p>
+               <div class="text__container">
+                  <h3 class="team__member">Николай Тарасов</h3>
+                  <p class="member__occupation" lang="en">Marketing</p>
+               </div>
             </li>
             <li class="members__list-item">
                <img src="images/our-team/img-3.jpg" alt="Михаил Ермаков - разработка пользовательского интерфейса" width="270" height="260">
-               <h3 class="team__member">Михаил Ермаков</h3>
-               <p class="member__occupation" lang="en">UI Designer</p>
+               <div class="text__container">
+                  <h3 class="team__member">Михаил Ермаков</h3>
+                  <p class="member__occupation" lang="en">UI Designer</p>
+               </div>
             </li>
          </ul>
       </div>
@@ -132,21 +140,21 @@
  </main>
 
 <footer class="footer">
-   <div class="container">
+   <div class="header-footer__container">
       <a class="logo__footer" href="/" aria-label="логотип сайта">
          <span class="logo__web" lang="en">Web</span><span class="logo__studio" lang="en">Studio</span>
       </a>
 
       <address>
-         <ul>
-            <li>
+         <ul class="address__footer">
+            <li class="address__footer-item">
                <a class="address" href="https://goo.gl/maps/5K13a3puJwrhcPws7" target="_blank">г. Киев, пр-т Леси
                   Украинки, 26</a>
             </li>
-            <li>
+            <li class="address__footer-item">
                <a class="contact__mail-footer" href="mailto:info@example.com">info@example.com</a>
             </li>
-            <li>
+            <li class="address__footer-item">
                <a class="contact__tel-footer" href="tel:+380991111111">+38 099 111 11 11</a>
             </li>
          </ul>

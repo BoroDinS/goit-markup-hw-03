@@ -20,15 +20,16 @@ address {
   font-style: normal;
 }
 
+.header-footer__container {
+  width: 1600px;
+  margin: auto;
+  padding: 0 215px;
+}
+
 .container {
   width: 1200px;
   padding: 0 15px;
   margin: auto;
-}
-
-.padding {
-  padding-top: 95px;
-  padding-bottom: 95px;
 }
 
 h1,
@@ -84,12 +85,13 @@ img {
 
 /* ============= HEADER ============= */
 
-.header {
+.header .header-footer__container {
   padding-top: 25px;
   padding-bottom: 25px;
+  border-bottom: 1px solid rgba(236, 236, 236, 1);
 }
 
-.header .container {
+.header .header-footer__container {
   display: flex;
   align-items: center;
 }
@@ -117,11 +119,8 @@ img {
   align-items: center;
 }
 
-.header .address {
-  margin-left: auto;
-}
-
 .contact__mail-header {
+  margin-left: 331px;
   margin-right: 50px;
 }
 
@@ -169,7 +168,7 @@ img {
 
 /* ============= HERO ============= */
 
-.hero .container {
+.hero {
   padding-top: 200px;
   padding-bottom: 200px;
 }
@@ -194,14 +193,18 @@ img {
   display: flex;
   align-items: center;
   text-align: center;
+  padding: 10px 32px;
 
   font-family: var(--main-font);
   font-weight: 700;
   font-size: 16px;
   line-height: 1.875;
   letter-spacing: 0.06em;
-
-  /* color: #ffffff; */
+  background: #f5f4fa;
+  box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
+  border-radius: 4px;
+  border: transparent;
+  color: #000000;
 }
 
 .btn__hero:hover,
@@ -216,6 +219,10 @@ img {
 /* ============= HERO END ============= */
 
 /* ============= ADVANTAGES ============= */
+
+.advantages {
+  margin: 94px;
+}
 
 .advantages__list {
   display: flex;
@@ -254,8 +261,8 @@ img {
 
 /* ============= SERVICES ============= */
 
-.services .container {
-  padding-bottom: 95px;
+.services {
+  margin-bottom: 90px;
 }
 
 .services__list {
@@ -275,6 +282,11 @@ img {
 
 /* ========== OUR TEAM SECTION ========== */
 
+.our__team {
+  padding-top: 98px;
+  padding-bottom: 90px;
+}
+
 .members__list {
   display: flex;
 }
@@ -288,7 +300,13 @@ img {
   margin-right: 30px;
 }
 
+.text__container {
+  padding: 30px 59px;
+}
+
 .team__member {
+  margin-bottom: 10px;
+
   font-family: var(--main-font);
   font-weight: 500;
   font-size: 16px;
@@ -312,14 +330,21 @@ img {
 
 /* ============= FOOTER ============= */
 
-.footer .container {
-  padding-top: 60px;
-  padding-bottom: 60px;
+.footer {
+  padding: 60px;
 }
 
 /* .logo__footer > .logo__studio {
   color: #ffffff;
 } */
+
+.address__footer-item:not(:last-child) {
+  margin-bottom: 9px;
+}
+
+.address__footer {
+  margin-top: 20px;
+}
 
 .address {
   font-family: var(--main-font);
@@ -351,16 +376,14 @@ img {
 /* ============= FOOTER END ============= */
 
 /* ============= PORTFOLIO ============= */
-
-.filters .container {
-  background-color: wheat;
-  padding-top: 94px;
-  padding-bottom: 50px;
+.projects {
+  margin: 94px;
 }
 
 .filters__list {
   display: flex;
   justify-content: center;
+  margin-bottom: 34px;
 }
 
 .filters__list-item:not(:last-child) {
@@ -385,11 +408,9 @@ img {
   margin-bottom: 0px;
 }
 
-.container .projects__list {
-  padding-bottom: 94px;
-}
-
 .btn__portfolio {
+  padding: 6px 22px;
+
   font-family: var(--main-font);
   font-weight: 500;
   font-size: 16px;
@@ -397,6 +418,9 @@ img {
   text-align: center;
   letter-spacing: 0.03em;
   color: #212121;
+  background: #f5f4fa;
+  border-radius: 4px;
+  border: transparent;
 }
 
 .btn__portfolio:hover,
@@ -408,11 +432,12 @@ img {
   border-radius: 4px;
 }
 
+.text {
+  padding: 20px 24px;
+  border: 1px solid rgba(238, 238, 238, 1);
+}
+
 .projects__title {
-  margin-top: 20px;
-
-  padding-left: 24px;
-
   font-family: var(--main-font);
   font-weight: 700;
   font-size: 18px;
@@ -423,8 +448,6 @@ img {
 
 .description {
   margin-top: 4px;
-  margin-bottom: 20px;
-  padding-left: 24px;
 
   font-family: var(--main-font);
   font-weight: 400;

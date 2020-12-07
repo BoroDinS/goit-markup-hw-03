@@ -221,7 +221,7 @@ img {
 /* ============= ADVANTAGES ============= */
 
 .advantages {
-  margin: 94px;
+  padding: 94px;
 }
 
 .advantages__list {
@@ -377,7 +377,7 @@ img {
 
 /* ============= PORTFOLIO ============= */
 .projects {
-  margin: 94px;
+  padding: 94px;
 }
 
 .filters__list {

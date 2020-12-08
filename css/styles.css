@@ -79,15 +79,16 @@ img {
 
 /* ============= HEADER ============= */
 
-.header .container {
-  padding-top: 25px;
-  padding-bottom: 25px;
+.header {
   border-bottom: 1px solid rgba(236, 236, 236, 1);
 }
 
 .header .container {
+  padding-top: 25px;
+  padding-bottom: 25px;
   display: flex;
   align-items: center;
+  /* border-bottom: 1px solid rgba(236, 236, 236, 1); */
 }
 
 .logo__header {
@@ -114,13 +115,12 @@ img {
 }
 
 .contact__mail-header {
-  margin-left: 346px;
   margin-right: 50px;
 }
 
-/* .contact__tel-header {
-  padding-left: auto;
-} */
+.address {
+  margin-left: auto;
+}
 
 .navigation__list-item {
   font-family: var(--main-font);

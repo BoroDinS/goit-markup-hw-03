@@ -20,12 +20,6 @@ address {
   font-style: normal;
 }
 
-.header-footer__container {
-  width: 1600px;
-  margin: auto;
-  padding: 0 215px;
-}
-
 .container {
   width: 1200px;
   padding: 0 15px;
@@ -85,13 +79,13 @@ img {
 
 /* ============= HEADER ============= */
 
-.header .header-footer__container {
+.header .container {
   padding-top: 25px;
   padding-bottom: 25px;
   border-bottom: 1px solid rgba(236, 236, 236, 1);
 }
 
-.header .header-footer__container {
+.header .container {
   display: flex;
   align-items: center;
 }
@@ -120,9 +114,13 @@ img {
 }
 
 .contact__mail-header {
-  margin-left: 331px;
+  margin-left: 355px;
   margin-right: 50px;
 }
+
+/* .contact__tel-header {
+  padding-left: auto;
+} */
 
 .navigation__list-item {
   font-family: var(--main-font);
@@ -168,15 +166,19 @@ img {
 
 /* ============= HERO ============= */
 
+.hero .container {
+  display: block;
+}
+
 .hero {
   padding-top: 200px;
   padding-bottom: 200px;
 }
 
 .hero__title {
-  padding-bottom: 30px;
-  padding-left: 250px;
-  padding-right: 250px;
+  margin-bottom: 30px;
+  padding-left: 170px;
+  padding-right: 170px;
 
   font-family: var(--main-font);
   font-weight: 900;
@@ -221,7 +223,7 @@ img {
 /* ============= ADVANTAGES ============= */
 
 .advantages {
-  padding: 94px;
+  padding: 94px 0;
 }
 
 .advantages__list {
@@ -262,7 +264,7 @@ img {
 /* ============= SERVICES ============= */
 
 .services {
-  margin-bottom: 90px;
+  padding-bottom: 90px;
 }
 
 .services__list {
@@ -331,7 +333,7 @@ img {
 /* ============= FOOTER ============= */
 
 .footer {
-  padding: 60px;
+  padding: 60px 0;
 }
 
 /* .logo__footer > .logo__studio {
@@ -377,7 +379,7 @@ img {
 
 /* ============= PORTFOLIO ============= */
 .projects {
-  padding: 94px;
+  padding: 94px 0;
 }
 
 .filters__list {
